@@ -1,0 +1,91 @@
+/* Style the container */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0; /* Background color */
+  }
+  
+  /* Style the header */
+  header {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333; /* Text color */
+  }
+  
+  /* Style the table container */
+  .table-container {
+    height: 300px;
+    overflow-y: auto;
+    background-color: #fff; /* Table background color */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Box shadow */
+    padding: 20px;
+  }
+  
+  /* Style the table */
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  /* Style the table header */
+  .table th {
+    background-color: #333; /* Header background color */
+    color: #fff; /* Header text color */
+    font-weight: bold;
+  }
+  
+  /* Style the table rows */
+  .table tr {
+    border-bottom: 1px solid #ccc; /* Border between rows */
+  }
+  
+  /* Style the table cells */
+  .table td {
+    padding: 10px;
+  }
+  
+  /* Style the input and button */
+  .input-container {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .input-container input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  .input-container button {
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  /* Style the footer */
+  footer {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /* Style the logout button */
+  footer button {
+    background-color: #ff3333; /* Logout button background color */
+    color: #fff; /* Logout button text color */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  

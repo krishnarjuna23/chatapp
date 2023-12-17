@@ -1,0 +1,30 @@
+/* Style for the navigation container */
+.nav-container {
+    background-color: #333; /* Background color */
+    color: #fff; /* Text color */
+    padding: 10px; /* Spacing around the content */
+  }
+  
+  /* Style for the navigation links */
+  .nav-link {
+    text-decoration: none; /* Remove underline from links */
+    color: #fff; /* Text color for links */
+    margin-right: 10px; /* Spacing between links */
+  }
+  
+  /* Style for the active link */
+  .nav-link.active {
+    font-weight: bold; /* Make the active link bold */
+  }
+  
+  /* Media query for responsiveness (adjust as needed) */
+  @media (max-width: 768px) {
+    .nav-container {
+      padding: 5px; /* Reduce spacing for smaller screens */
+    }
+  }
+
+  /* Style for the navigation title */
+
+  
+  /* Style for the navigation container with a background image */
